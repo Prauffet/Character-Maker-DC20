@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DC20 Character Creator</title>
+        <meta name="description" content="This is a form to completed pdf file of a character for DC20.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Prauffet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>Create your DC20 Character by following the prombts below!</header>
+        <!-- This is simply to label the top may need top adjust the sectioning at a later time. -->
+        
+             <p>Step 1: Choose your Prime modifier, and distribute your attributes. </p>
+             <form>
+
+             <input name="primemod" id="primemight" type="radio"> 
+             <label for="primemight">Might</label><br>
+             <input name="primemod" id="primeagility" type="radio"> 
+             <label for="primeagility">Agility</label><br>
+             <input name="primemod" id="primecharisma" type="radio"> 
+             <label  for="primecharisma">Charisma</label><br>
+             <input name="primemod" id="primeintelligence" type="radio"> 
+             <label for="primeintelligence">Intelligence</label><br> 
+<!-- The inputs for the attribute points should only allow two items-->
+             <input type="number" id="Might" maxlength="2"> 
+             <label for="Might">Might</label><br> 
+             <input type="number" id="Agility" maxlength="2"> 
+             <label for="Agility">Agility</label><br>
+             <input type="number" id="Charisma" maxlength="2"> 
+             <label for="Charisma">Charisma</label><br>          
+             <input type="number" id="Intelligence" maxlength="2"> 
+             <label for="Intelligence">Intelligence</label>
+
+             </form>
+            
+        
+        <script src="demo" async defer></script>
+    </body>
+</html>
